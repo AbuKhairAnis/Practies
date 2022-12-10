@@ -1,0 +1,44 @@
+ul{
+    padding: 0px;
+    margin: 0px;
+    background-color: green;
+    overflow: hidden;
+}
+ul li{
+    float: left;
+    list-style-type: none;
+}
+ul li a{
+    color: yellow;
+    text-transform: capitalize;
+    text-decoration: none;
+    padding: 12px 16px;
+    display: inline-block;
+    font-size: 20px;
+}
+ul li a:hover{
+    background: white;
+    color: black;
+}
+.dropdown{
+    background-color: cyan;
+    box-shadow: 0px 8px 16px 0 rgba(0,0,0,0.3);
+    display: none;
+    position: absolute;
+    min-width: 150px;
+    
+}
+
+.dropdown a{
+    display: block;
+    color: darkblue;
+    border: 1px solid green;
+    margin: 2px
+}
+.dropdown a:hover{
+    background-color: yellow;
+    color: darkgreen;
+}
+.conten:hover .dropdown{
+    display: block;
+}

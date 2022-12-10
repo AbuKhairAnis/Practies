@@ -1,0 +1,52 @@
+span.a{
+    background-color: yellow;
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    padding: 5px;
+    display: inline;
+}
+span.b{
+    background-color: yellow;
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    padding: 5px;
+    display: inline-block;
+}
+span.c{
+    background-color: yellow;
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    padding: 5px;
+    display: block;
+}
+.menu{
+    background-color: azure;
+    
+}
+ul{
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+    
+}
+ul li{
+    display: inline-block;
+    padding: 10px 20px;
+    box-sizing: border-box;
+}
+ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+    
+}
+ul li:hover{
+    background-color: blue;
+    border-radius: 10px;
+}
+ul li:hover a{
+    color: white;
+}

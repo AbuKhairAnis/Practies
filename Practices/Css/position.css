@@ -1,0 +1,13 @@
+.position{
+    position: fixed;
+    background-color: green;    
+    font-family: cursive;
+    
+}
+p{
+ width: 400px;
+ height: 400px;
+ float: left;
+ overflow: auto;
+    
+}

@@ -1,0 +1,19 @@
+div.gallery{
+    margin: 5px;
+    border: 1px solid black;
+    width: 180px;
+    display: inline-block;
+    
+}
+div.gallery img{
+    width: 100%;
+    height: auto;
+}
+div.gallery:hover{
+    border: 1px solid green;
+    padding: 5px;
+}
+.descrive{
+    padding: 10px;
+    text-align: center;
+}

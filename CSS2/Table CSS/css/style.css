@@ -1,0 +1,30 @@
+body{
+    margin: 50px;
+}
+.info{
+    font-family: arial;
+    font-size: 18px;
+    width: 80%;
+    border-collapse: collapse;
+    background-color: beige
+}
+.info th,td{
+    border: 2px solid gray;
+    padding: 15px;
+    
+}
+.info td{
+    text-align: center;
+    font-size: 15px;
+    
+}
+.info tr:nth-child(even){
+    background-color: skyblue;
+}
+.info tr:hover{
+    background-color: aqua;
+}
+.info th{
+    background-color: green;
+    color: white;
+}

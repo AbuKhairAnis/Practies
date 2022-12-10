@@ -1,0 +1,51 @@
+.box{
+    width: 200px;
+    height: 200px;
+    color: aliceblue;
+    background-color: aqua;
+    position: relative;
+    animation: anis 5s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-direction:alternate;
+    animation-fill-mode: backwards;
+    animation-play-state: running;
+    animation-timing-function: ease;
+}
+div span{
+    text-align: center;
+    font-size: 50px;
+}
+
+@keyframes anis{
+    0%{
+        color: chartreuse;
+        background-color: aqua;
+        top:0px;
+        left:0px;
+        }
+    25%{
+        color: brown;
+        background-color: blue;
+        top:0px;
+        left: 200px;
+    }
+    50%{
+        color: chocolate;
+        background-color: green;
+        top: 200px;
+        left: 200px;
+    }
+    75%{
+        color: crimson;
+        background-color:black;
+        left: 0px;
+        top: 200px;
+    }
+    100%{
+        color: black;
+        background-color: aqua;
+        top: 0px;
+        left: 0px;
+    }
+}

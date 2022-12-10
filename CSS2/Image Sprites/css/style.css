@@ -1,0 +1,89 @@
+
+.icon ul{
+    padding: 0;
+    margin: 0;
+    overflow: hidden
+}
+.icon ul li{
+    list-style-type: none;
+    float: left;
+    margin-right: 10px;
+}
+.icon ul li:last-child{
+    margin-right: 0px;
+    
+}
+.icon ul li a{
+    background-image: url('../img/icon.jpg');
+    background-repeat: no-repeat;
+    background-position: 0px 0px;
+    width: 84px;
+    height: 4px;
+    display: inline-block;
+    border: 2px solid #777;
+    border-radius: 50px;
+    transition: 1s;
+}
+.icon ul li:hover:nth-child(1) a{
+    background-position: 0px -84px;
+    
+}
+.icon ul li:nth-child(2) a{
+    background-position: -168px 0px;
+    
+}
+.icon ul li:hover:nth-child(2) a{
+    background-position: -168px -84px; 
+}
+.icon ul li:nth-child(3) a{
+    background-position: -252px 0px;
+    
+}
+.icon ul li:hover:nth-child(3) a{
+    background-position: -252px -84px;
+}
+.icon1 ul{
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+.icon1 ul li{
+    list-style-type: none;
+    float: left;
+    margin-right: 10px;
+}
+
+.icon1 ul li:last-child{
+    margin-right: 0px;
+    
+}
+.icon1 ul li a{
+    background-image: url('../img/icon.png');
+    background-repeat: no-repeat;
+    background-position: -42px -23px;
+    width: 64px;
+    height: 64px;
+    display: inline-block;
+    border: 2px solid #777;
+    border-radius: 50px;
+    transition: 1s;
+}
+.icon1 ul li:hover:nth-child(1) a{
+    background-position: -42px -92px;
+    
+}
+.icon1 ul li:nth-child(2) a{
+    background-position: -102px -23px;
+    
+}
+.icon1 ul li:hover:nth-child(2) a{
+    background-position: -102px -91px; 
+}
+.icon1 ul li:nth-child(3) a{
+    background-position: -163px -23px;
+    
+}
+.icon1 ul li:hover:nth-child(3) a{
+    background-position: -163px -92px;
+    
+}

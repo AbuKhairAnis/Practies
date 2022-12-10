@@ -1,0 +1,47 @@
+.box{
+    color: aqua;
+    font-size: 30px;
+    width: 200px;
+    height: 60px;
+    position: relative;
+    background-color: chartreuse;
+    animation-name: anis;
+    animation-delay: 2s;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    
+        
+}
+
+@keyframes anis {
+    0%{
+        background-color:yellow;
+        color: red;
+        left:0;
+        top:0;
+    }
+    25%{
+        color: black;
+        background-color:green;
+        left: 200;
+        top:0px;
+    }
+    50%{
+      color: blue;
+        background-color:lime;
+        left: 100px;
+        top:100px;       
+    }
+    75%{
+        color: blueviolet;
+        background-color:black;
+        left: 100px;
+        top: 0;
+    }
+    100%{
+        color: red;
+        background-color:yellow;
+        left: 0px;
+        top: 0px;
+        }
+}

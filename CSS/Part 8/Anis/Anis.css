@@ -1,0 +1,9 @@
+p{
+    margin: 50px;
+    border: 1px dashed #333;
+    outline-width: 5px;
+    outline-style: solid;
+    outline-color: red;
+    outline-offset: 20px;
+    
+}

@@ -1,0 +1,33 @@
+.box{
+    width: 200px;
+    height: 200px;
+    background: blue;
+    left: 300px;
+    position: relative;
+}
+.box::after{
+    content: "";
+    width: 200px;
+    height: 200px;
+    background: green;
+    left: -250px;
+    position: absolute;
+}
+.box::before{
+    content: "";
+    width: 200px;
+    height: 200px;
+    background: red;
+    left: 250px;
+    position: absolute;
+}
+.box1{
+    width: 150px;
+    height: 150px;
+    background: black;
+    left: 500px;
+    position: relative;
+}
+.box1::before{
+    content:"Anis";
+}

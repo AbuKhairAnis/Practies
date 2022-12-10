@@ -1,0 +1,95 @@
+/*
+.box {
+    color: aqua;
+    font-size: 30px;
+    width: 200px;
+    height: 60px;
+    position: relative;
+    background-color: chartreuse;
+    animation-name: anis;
+    animation-delay: 2s;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+
+
+}
+
+@keyframes anis {
+    0% {
+        background-color: yellow;
+    }
+
+    25% {
+        color: black;
+        background-color: green;
+    }
+
+    50% {
+        color: blue;
+        background-color: lime;
+
+    }
+
+    75% {
+        color: blueviolet;
+        background-color: black;
+
+    }
+
+    100% {
+        color: red;
+        background-color: yellow;
+
+    }
+}
+*/
+.box{
+    width: 200px;
+    height: 200px;
+    color: aliceblue;
+    background-color: aqua;
+    position: relative;
+    animation: anis 5s;
+    animation-delay: 3s;
+    animation-iteration-count: infinite;
+    animation-direction:normal;
+    animation-fill-mode: forwards;
+    
+}
+div{
+    font-size: 30px;
+}
+
+
+@keyframes anis{
+    0%{
+        color: chartreuse;
+        background-color: aqua;
+        top:0px;
+        left:0px;
+        }
+    25%{
+        color: brown;
+        background-color: blue;
+        top:0px;
+        left: 200px;
+    }
+    50%{
+        color: chocolate;
+        background-color: green;
+        top: 200px;
+        left: 200px;
+    }
+    75%{
+        color: crimson
+        background-color:black;
+        left: 0px;
+        top: 200px;
+    }
+    100%{
+        color: black
+        background-color: aqua;
+        top: 0px;
+        left: 0px;
+    }
+}

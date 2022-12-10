@@ -1,0 +1,122 @@
+body{
+    font-family: fantasy;
+    color: darkblue;
+    font-size: 20px;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+.index{
+    width: 1024px;
+    background-color: aquamarine;
+    margin: 0 auto;
+}
+.full-width{
+    width: 100%;
+    overflow: hidden;
+    clear: both;
+    display: block;
+    box-sizing: border-box;
+    
+}
+.header{
+    padding: 50px;
+    background-color: azure;
+    
+}
+.header h1{
+    font-size:50px;
+    font-family: sans-serif;
+    color: inherit;
+    float: left;
+}
+.search{
+    float: right;
+    margin-right: 25px;
+    margin-top: 50px;
+}
+.header .se,.su{
+    background-color: aliceblue;
+    height: 25px;
+    width: 200px;
+} 
+.header .su{
+    width: 100px;
+    background-color: burlywood;
+    cursor: pointer;
+    
+}
+.header ul{
+    margin: 30px 0;
+    padding: 0;
+}
+.header ul li{
+    display: inline-block;
+    list-style-type: none;
+}
+.header ul li a{
+    background-color: cornsilk;
+    padding: 15px 20px;
+    float: left;
+    font-size: 25px;
+    font-family: cursive;
+}
+.header ul li a:hover{
+    background-color: blue;
+}
+.main-content{
+    width: 650px;
+    margin-right: 20px;
+    padding: 10px;
+    text-align: justify;
+    float: left;
+    
+}
+.right-sidebar{
+    width: 300px;
+    margin-right:20px;
+    padding: 10px 7px;
+    float: right;
+    text-align: justify
+    
+}
+.content{
+    background-color: bisque;
+    float: left;
+    width: 300px;
+    margin: 20px;
+    padding: 20px;
+    box-sizing: border-box;
+    
+}
+.content p{
+    text-align: justify;
+}
+.content h2{
+    text-align: center;
+    border-bottom: 1px solid darkgray;
+    margin-bottom: 40px;
+    padding-bottom: 30px;
+    text-transform: capitalize;
+}
+.content img{
+    height: 200px;
+    width: 250px
+}
+.footer{
+    background-color: antiquewhite;
+}
+.copy{
+    font-size: 20px;
+    padding: 40px;
+    text-align: center;
+    cursor: pointer;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+}
+a{
+  cursor: pointer;
+}
+
+

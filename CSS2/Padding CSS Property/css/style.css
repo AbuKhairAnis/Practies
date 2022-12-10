@@ -1,0 +1,9 @@
+.pading {
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    margin: 100px 0px 0px 100px;
+    padding: 20px;
+    color: yellow;
+    text-align: center;
+}

@@ -1,0 +1,49 @@
+img{
+    width: auto;
+    height: 200px;
+    float: left;
+    margin: 10px;
+}
+.bulr{
+    filter: blur(2px)
+    
+}
+.brightnes{
+    filter: brightness(200%)
+    
+}
+.contrast{
+    filter: contrast(200%)
+}
+.grayscale{
+    filter: grayscale(120%)
+}
+.invert{
+    filter: invert(150%)
+}
+.opacity{
+    filter: opacity(.5)
+}
+.saturate{
+    filter: saturate(5)
+}
+.sepia{
+    filter: sepia(100%)
+}
+.drop-shadow{
+    filter: drop-shadow(8px 16px 20px green)
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

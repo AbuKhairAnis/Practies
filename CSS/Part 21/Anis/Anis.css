@@ -1,0 +1,29 @@
+img{
+    width: 400px;
+    height: 400px;
+    float: right;
+}
+p{
+    clear: right;
+}
+.box{
+    height: 100px;
+    background: black;
+    width: 25%;
+    float: left
+}
+.box1{
+    background-color: yellow
+}
+.box1{
+    background-color: yellow
+}
+.box2{
+    background-color: red
+}
+.box3{
+    background-color: greenyellow
+}
+.box4{
+    background-color: skyblue
+}

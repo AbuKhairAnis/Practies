@@ -1,0 +1,54 @@
+div img{
+    width: 250px;
+}
+.op{
+    width: 250px;
+    opacity: .6
+}
+.box1{
+    width: 100%;
+    height: 100px;
+    background: green;
+    opacity:.3
+}
+.box2{
+    width: 100%;
+    height: 100px;
+    background: green;
+    opacity:.6
+}
+.box3{
+    width: 100%;
+    height: 100px;
+    background: green;
+    opacity:1
+}
+div p{
+    color: red;
+    text-align: center;
+    font-size: 40px;
+}
+.back{
+    background: url(../img/image.jpg);
+    height: 150px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border:1px solid blue;
+    margin: 10px;
+    border-radius: 10px;
+}
+.box{
+    margin: 40px;
+    background: white;
+    padding: 10px;
+    opacity: 0.5;
+    border-radius: 10px;
+    
+}
+.text{
+    color: red;
+    text-align: justify;
+    font-size: 20px;
+
+}

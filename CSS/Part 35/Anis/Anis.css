@@ -1,0 +1,33 @@
+img{
+    width: 100px;
+    height: auto;
+    float: left
+    
+}
+.Anis{
+  filter: blur(2px);  
+}
+.Anis1{
+  filter: brightness(150%);
+}
+.Anis2{
+  filter:contrast(150%);
+}
+.Anis3{
+  filter: grayscale(70%);
+}
+.Anis4{
+    filter: invert(100%);  
+}
+.Anis5{
+  filter: opacity(50%)
+}
+.Anis6{
+  filter: saturate(2)  
+}
+.Anis7{
+  filter: sepia(100%)  
+}
+.Anis8{
+  filter: drop-shadow(6px 16px 20px)
+}

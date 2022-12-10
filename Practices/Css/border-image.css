@@ -1,0 +1,22 @@
+div{
+    border: 15px solid transparent;
+    width: 200px;
+    padding: 10px 20px;
+}
+.round{
+    border-image: url(border.jpeg) 30 30 round;
+}
+.stretch{
+    border-image: url(border.jpeg) 30 40 stretch;
+}
+.r1{
+    border-image: url(Border%201.jpg) 40% round;
+        
+    }
+.s1{
+    border-image: url(border.jpeg) 30% stretch;
+}
+.r2{
+    border-image: url(border.jpeg) 30%  round;
+        
+    }

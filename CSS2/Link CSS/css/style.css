@@ -1,0 +1,17 @@
+body{
+    margin: 100px;
+}
+a{
+    color: black;
+    background: red;
+    text-decoration: none;
+    padding: 20px;
+    font-size: 20px;
+    border-radius: 20px;
+    
+    
+}
+a:active{
+    background: blue;
+    color: #fff;
+}

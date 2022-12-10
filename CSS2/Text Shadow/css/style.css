@@ -1,0 +1,22 @@
+.a{
+    text-shadow: 0 2px 4px;
+}
+.a1{
+    text-shadow: 2px 2px 4px blue;
+}
+.a2{
+    color: white;
+    text-shadow: -2px 2px 4px blue,-1px 1px 2px black;
+}
+.a3{
+    text-shadow: -2px 2px 4px green ;
+}
+.a4{
+    text-shadow: 0 2px 4px;
+}
+.a5{
+    text-shadow: 0 2px 4px;
+}
+.a6{
+    text-shadow: 0 2px 4px;
+}

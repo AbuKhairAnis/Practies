@@ -1,0 +1,23 @@
+.class{
+    text-align: center;
+    font-size: 30px;
+    color: aqua;
+    background-color: black;
+
+}
+#id{
+    text-align: center;
+    font-size: 40px;
+    color: red;
+    background-color: green;
+}
+.class-other{
+    margin: 40px;
+    color: chartreuse;
+    background-color: blue;
+}
+#id-other{
+    margin: 40px;
+    color: chartreuse;
+    background-color: blue;
+}

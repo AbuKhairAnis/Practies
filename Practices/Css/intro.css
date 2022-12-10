@@ -1,0 +1,13 @@
+h1{
+    text-align: center;
+    color: aqua;
+    background: black;    
+}
+p{
+    text-decoration:underline;
+    text-decoration-color: blue;
+    font-style: italic;
+    font-size: 20px;
+    text-transform: capitalize;
+    
+}

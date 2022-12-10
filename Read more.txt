@@ -1,0 +1,65 @@
+const Educations = () => {
+    const date = new Date().toDateString();
+
+    const [isReadMore, setIsReadMore] = useState(true);
+    console.log(isReadMore)
+    const toggleReadMore = () => { setIsReadMore(!isReadMore) };
+
+    const text = "If a dog chews shoes whose shoes does he choose? Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, consectetur veritatis culpa perferendis consequuntur maxime enim quasi hic illum, doloremque dolores. Temporibus facere perspiciatis quo iure quisquam nulla iste, velit, sequi voluptate placeat nam quis vitae. Voluptatum dolorum consequuntur tempora illo porro odit excepturi, aperiam maxime, est veritatis natus. Quas. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet deleniti pariatur atque? Voluptates officia tempora nam beatae molestiae vero, nisi, repellendus quas voluptas amet quidem delectus soluta excepturi. Nisi, quae"
+
+    const smallParagraph = <p className='flex gap-2 text-xs items-center'><FaCalendarAlt />{date}  <FaUserAlt />admin <FaComment /> </p>
+
+
+    return (
+        <div className='grid grid-cols-6 gap-6'>
+            <div className='col-span-4 bg-base-100'>
+                <div className=''>
+                    <img src="https://wallpaperaccess.com/full/2097542.jpg" alt="Shoes" className="" />
+                    <div className='text-start'>
+                        <div className='flex mt-2 gap-2'>
+                            <button className='rounded p-1 text-xs bg-[#a4c4be]'>Sports</button>
+                            <button className='rounded p-1 text-xs bg-[#81d742]'>Fashion</button>
+                            <button className='rounded p-1 text-xs bg-[#dd9933]'>Health</button>
+                        </div>
+                        <h2 className="text-2xl font-bold ">Lorem, ipsum dolor.</h2>
+                        {smallParagraph}
+                       <p className='text-justify'>
+                       {
+                            isReadMore ? text.slice(0, 150) : text
+                        }
+                        {text.length > 150 &&
+                            <button className='btn btn-primary' onClick={toggleReadMore}>
+                                {isReadMore ? '...read more' : ' ...show less'}
+                            </button>
+                        }
+                       </p>
+                       
+                    </div>
+                </div>
+
+            </div>
+            <div className='row-span-6 col-span-2'>
+                <SideBar />
+            </div>
+            <div className='col-span-2'>
+                <img src="https://placeimg.com/400/225/arch" alt="Shoes" className="rounded-xl m-auto" />
+                <div className='text-start'>
+                    <div className='flex mt-2 gap-2'>
+                        <button className='rounded p-1 text-xs bg-[#a4c4be]'>Sports</button>
+                        <button className='rounded p-1 text-xs bg-[#81d742]'>Fashion</button>
+                        <button className='rounded p-1 text-xs bg-[#dd9933]'>Health</button>
+                    </div>
+                    <h2 className="text-2xl font-bold ">Lorem, ipsum dolor.</h2>
+                    {smallParagraph}
+                    <p className='text-justify'>
+                       {
+                            isReadMore ? text.slice(0, 150) : text
+                        }
+                        {text.length > 150 &&
+                            <button className='btn btn-primary' onClick={toggleReadMore}>
+                                {isReadMore ? '...read more' : ' ...show less'}
+                            </button>
+                        }
+                       </p>
+                </div>
+            </div>
